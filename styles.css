@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-wrap: wrap;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.discription {
+  margin: 1rem;
+}
+
+main img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.price {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  border-radius: 20px;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.price a {
+  align-self: center;
+  color: hsl(245, 75%, 52%);
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.price p {
+  /* margin-top: 0rem; */
+}
+h1 {
+  font-weight: 900;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: black;
+}
+h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: -0.5rem;
+}
+
+div img {
+  height: 8vh;
+  padding-top: 1rem;
+}
+.cancel {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  box-shadow: 0px 20px 60px -15px hsl(245, 75%, 52%);
+  /*h-off v-off blur spread  color*/
+  transition: .2s ease;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+.price a:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+.cancel:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: pink;
+  }
+} 
