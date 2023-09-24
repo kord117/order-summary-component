@@ -84,7 +84,7 @@ button {
   font-weight: 700;
   box-shadow: 0px 20px 60px -15px hsl(245, 75%, 52%);
   /*h-off v-off blur spread  color*/
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 button:hover {
@@ -102,4 +102,4 @@ button:hover {
   body {
     background-color: pink;
   }
-} 
+}
