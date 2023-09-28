@@ -37,7 +37,7 @@ main img {
   border-radius: 20px;
   gap: 2rem;
   padding: 0 1rem;
-}
+
 .price a {
   align-self: center;
   color: hsl(245, 75%, 52%);
@@ -99,7 +99,14 @@ button:hover {
 }
 
 @media only screen and (min-width: 600px) {
+  main {
+    max-width: 450px;
+    margin: 50% auto;
+    flex-grow: 3;
+  }
+
   body {
-    background-color: pink;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: 100vw 50vh;
   }
 }
