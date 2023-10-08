@@ -37,6 +37,7 @@ main img {
   border-radius: 20px;
   gap: 2rem;
   padding: 0 1rem;
+}
 
 .price a {
   align-self: center;
@@ -48,6 +49,7 @@ main img {
 .price p {
   /* margin-top: 0rem; */
 }
+
 h1 {
   font-weight: 900;
   padding-top: 1.5rem;
@@ -55,6 +57,7 @@ h1 {
   margin-bottom: 0;
   color: black;
 }
+
 h2 {
   font-weight: 700;
   font-size: 1rem;
@@ -66,6 +69,7 @@ div img {
   height: 8vh;
   padding-top: 1rem;
 }
+
 .cancel {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -90,10 +94,12 @@ button {
 button:hover {
   opacity: 0.7;
 }
+
 .price a:hover {
   color: hsl(223, 47%, 23%);
   text-decoration: none;
 }
+
 .cancel:hover {
   color: black;
 }
