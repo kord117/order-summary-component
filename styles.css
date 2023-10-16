@@ -46,8 +46,8 @@ main img {
   font-weight: 900;
 }
 
-.price p {
-  /* margin-top: 0rem; */
+.price div {
+  padding-top: 1rem;
 }
 
 h1 {
@@ -107,7 +107,7 @@ button:hover {
 @media only screen and (min-width: 600px) {
   main {
     max-width: 450px;
-    margin: 50% auto;
+    margin: 10% auto;
     flex-grow: 3;
   }
 
